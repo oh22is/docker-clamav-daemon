@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Set Bash instructions
-#For more information look here http://redsymbol.net/articles/unofficial-bash-strict-mode/
+#For more information, please refer to this page. http://redsymbol.net/articles/unofficial-bash-strict-mode/
 set -eu
 
 #Set environment variable which points to the main ClamAV virus definition file
