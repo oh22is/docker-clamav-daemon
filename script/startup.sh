@@ -12,8 +12,8 @@ if [ ! -f ${MAIN_FILE} ]; then
     /usr/bin/freshclam
 fi
 
-# Run freshclam as a daemon and check 6 times per day for new virus definitions
-/usr/bin/freshclam -d -c 6
+# Run freshclam as a daemon and check 2 times per day for new virus definitions
+/usr/bin/freshclam -d -c 2
 
 # Run the ClamAV Deamon and specify the config file
 exec /usr/sbin/clamd -c /etc/clamav/clamd.conf
