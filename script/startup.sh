@@ -11,4 +11,4 @@ fi
 freshclam -d
 
 # Start the ClamAV Deamon
-clamd
+exec clamd 
