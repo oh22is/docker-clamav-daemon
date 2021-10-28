@@ -4,7 +4,7 @@ FROM alpine:latest
 #Label stuff
 LABEL maintainer="Lucas Pribbenow"
 LABEL company="oh22information services GmbH"
-LABEL version="1.1"
+LABEL version="1.2"
 LABEL description="ClamAV Daemon running inside a Docker container"
 
 # Switch to the root user for the next tasks
